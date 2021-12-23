@@ -1,0 +1,113 @@
+@media only screen and (min-width: 1224px) {
+  /* Desktop */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* iPad */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* iPad Portrait */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* iPad Landscape */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* iPhone */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  /* iPhone Portrait */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+  /* iPhone Landscape */
+}
+
+
+@media screen (max-device-width: 1920px) and (min-device-width: 1080px) {
+  .p1{
+    font-size: 48px;
+  }
+
+  .loading1 {
+    font-size: 96px;
+  	top: 80px;
+  	left: 1365px;
+  }
+
+    .loading {
+      font-size: 96px;
+    	top: 150px;
+    	left: 800px;
+    }
+
+    .p-num{
+      font-size: 64px;
+      background: red;
+    }
+
+    .text-num{
+      top: 330px;
+      left: 1120px;
+    }
+
+      .blurhuinya{
+        width: 100%;
+        height: 100%;
+        top: -20px;
+        left: 20px;
+        background: url('../images/1920/1.svg');
+  }
+
+      .containerhuita{
+        width: 717px;
+        height: 718.03px;
+      }
+
+      .epipsy{
+        width: 100%;
+        height: 100%;
+        background: url('../images/1920/эпипсы.svg');
+      }
+
+      .container-epipsy{
+        width: 1213.61px;
+        height: 2330px;
+        left: 380px;
+        top: 640px;
+      }
+
+      .palki{
+        width: 100%;
+        height: 100%;
+        background: url('../images/1920/палки.svg');
+      }
+
+      .container-palki{
+        width: 262px;
+        height: 2294px;
+        left: 0px;
+        top: 640px;
+      }
+
+      .palki-pravye{
+        width: 100%;
+        height: 100%;
+        background: url('../images/1920/палкиправаки.svg');
+      }
+
+      .container-palki-pravaki{
+        width: 262px;
+        height: 2294px;
+        display: block;
+        position: absolute;
+        left: 1652px;
+        top: 640px;
+      }
+
+
+
+}
