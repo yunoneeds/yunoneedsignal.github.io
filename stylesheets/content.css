@@ -1,0 +1,753 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro";
+  color: #FFFFFF;
+  background-color: #100F0F;
+  height: 3240px;
+}
+
+.dots{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background: url('../images/Group 248.png');
+  animation: path 20s linear infinite;
+}
+
+.dots2{
+top: 300px;
+animation-duration: 25s;
+}
+
+.dots3{
+  top: 100px;
+  animation-duration: 35s;
+}
+
+.dots4{
+  top: 500px;
+  animation-duration: 30s;
+}
+
+.dots5{
+  top: 500px;
+  animation-duration: 40s;
+}
+
+.dots6{
+  top: 300px;
+  animation-duration: 15s;
+}
+
+.dots7{
+  top: 100px;
+  animation-duration: 50s;
+}
+
+.dots8{
+  top: 900px;
+  animation-duration: 30s;
+}
+
+.dots9{
+  top: 900px;
+  animation-duration: 20s;
+}
+
+.containerback{
+  width: 570px;
+  height: 2000px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* animation: path 10s linear infinite; */
+}
+
+@keyframes walk {
+  0%{background-position: 0px top;}
+  /*25%{background-position: -68px top;}
+  75%{background-position: -136px top;}*/
+  100%{background-position: -204px top;}
+}
+@keyframes path {
+  0%{left: 0px;}
+  /* 25%{left: 30%; top: 200px;}
+  50%{left: 50%; top: 150px;}
+  55%{left: 56%; top: 200px;} */
+  100%{left: 900px;}
+}
+
+.p{
+  font-size: 48px;
+  margin-top: 60px;
+}
+
+.text{
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  z-index: 20;
+  animation: text 20s linear infinite;
+}
+.text:hover{
+  animation-play-state: paused;
+}
+@keyframes text {
+  from {text-indent: 100%}
+  to {text-indent: -100%}
+}
+
+.p1{
+  font-size: 36px;
+  overflow: hidden;
+}
+
+.loading1 {
+  font-size: 72px;
+	position: absolute;
+	top: 70px;
+	left: 880px;
+}
+
+.loading-text1 {
+	line-height: 100px;
+	filter: blur(0px);
+	animation: blur-text 1.5s infinite linear alternate;
+  }
+
+@keyframes blur-text {
+	0% {filter: blur(0px);}
+	100% {filter: blur(4px);}
+}
+
+.loading {
+  font-size: 96px;
+	position: absolute;
+	top: 150px;
+	left: 800px;
+}
+
+.loading-text {
+	display: inline-block;
+	margin: 0 5px;
+	filter: blur(0px);
+	animation: blur-text 1.5s infinite linear alternate;
+  }
+
+@keyframes blur-text {
+	0% {filter: blur(0px);}
+	100% {filter: blur(4px);}
+}
+
+.p-num{
+  font-size: 48px;
+}
+
+.text-num{
+  overflow: hidden;
+  top: 420px;
+  left: 900px;
+  white-space: nowrap;
+  position: absolute;
+  z-index: 20;
+  animation: hu__hu__ infinite 2s ease-in-out;
+}
+
+.text-num:hover{
+  animation-play-state: paused;
+}
+
+@keyframes hu__hu__ {
+    50% { transform: translateY(30px) }
+}
+
+.blurhuinya{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  top: -20px;
+  left: 20px;
+  background: url('../images/1(1440).svg');
+  animation: bluridet 10s ease infinite alternate;
+}
+
+.containerhuita{
+  width: 538px;
+  height: 533px;
+  display: block;
+  position: absolute;
+}
+
+.blurhuinya:hover{
+  animation-play-state: running;
+}/*чо ты не работаешь сука*/
+
+@keyframes bluridet {
+  0%{left: 20px; top: -20px;}
+  25%{left: 300px; top: 500px;}
+  50%{left: 600px; top: 1000px;}
+  75%{left: 450px; top: 1500px;}
+  100%{left: 280px; top: 2500px;}
+}
+
+.box1{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background: url('../images/Group 250.svg');
+  animation: blink 10s linear infinite;
+}
+
+.container-load{
+  width: 213px;
+  height: 78px;
+  display: block;
+  position: absolute;
+  top: 564px;
+  left: -8px;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.box2{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background: url('../images/Group 251.svg');
+  animation: blink 10s linear infinite;
+}
+
+.container-load2{
+  width: 213px;
+  height: 78px;
+  display: block;
+  position: absolute;
+  top: 564px;
+  left: 1324px;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.epipsy{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background: url('../images/эпипсы(1440).svg');
+}
+
+.container-epipsy{
+  width: 910.21px;
+  height: 1747.5px;
+  display: block;
+  position: absolute;
+  left: 310px;
+  top: 640px;
+}
+
+.palki{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background: url('../images/палки(1440).svg');
+}
+
+.container-palki{
+  width: 196.5px;
+  height: 1720.5px;
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 640px;
+}
+
+.palki-pravye{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background: url('../images/палкиправые(1440).svg');
+}
+
+.container-palki-pravaki{
+  width: 196.5px;
+  height: 1720.5px;
+  display: block;
+  position: absolute;
+  left: 1324px;
+  top: 640px;
+}
+
+.planetka{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background: url('../images/Group 249.svg');
+}
+
+.container-planetka{
+  width: 955.32px;
+  height: 619.88px;
+  display: block;
+  position: absolute;
+  left: 280px;
+  top: 2510px;
+}
+
+.thing{
+  width: 47.25px;
+  height: 128.25px;
+  border-radius: 5px;
+  display: block;
+  position: absolute;
+  top: 1074px;
+  left: 136px;
+  background-color: white;
+  filter: blur(5px);
+  animation: all .2s ease-out;
+}
+
+.thing:hover{
+  background: #ABABAB;
+  transition: all .2s ease-out;
+}
+
+.thing:hover ~ .lighttext .tex{
+  animation-play-state: paused;
+  transition: all .2s cubic-bezier(0, 0, 0.31, 0.82);
+}
+
+.thing1{
+  width: 47.25px;
+  height: 128.25px;
+  border-radius: 5px;
+  display: block;
+  position: absolute;
+  top: 1584px;
+  left: 136px;
+  background-color: white;
+  filter: blur(5px);
+  animation: all .2s ease-out;
+}
+
+.thing1:hover{
+  background: #ABABAB;
+  transition: all .2s ease-out;
+}
+
+
+.thing2{
+  width: 47.25px;
+  height: 128.25px;
+  border-radius: 5px;
+  display: block;
+  position: absolute;
+  top: 1584px;
+  left: 1342px;
+  background-color: white;
+  filter: blur(5px);
+  animation: all .2s ease-out;
+}
+
+.thing2:hover{
+  background: #ABABAB;
+  transition: all .2s ease-out;
+}
+
+.thing3{
+  width: 47.25px;
+  height: 128.25px;
+  border-radius: 5px;
+  display: block;
+  position: absolute;
+  top: 1821px;
+  left: 1342px;
+  background-color: white;
+  filter: blur(5px);
+  animation: all .2s ease-out;
+}
+
+.thing3:hover{
+  background: #ABABAB;
+  transition: all .2s ease-out;
+}
+
+
+.thing4{
+  width: 47.25px;
+  height: 128.25px;
+  border-radius: 5px;
+  display: block;
+  position: absolute;
+  top: 1070px;
+  left: 1342px;
+  background-color: white;
+  filter: blur(5px);
+  animation: all .2s ease-out;
+}
+
+.thing4:hover{
+  background: #ABABAB;
+  transition: all .2s ease-out;
+}
+
+.thing4:hover ~ .lighttextright .texright{
+  animation-play-state: paused;
+  transition: all .2s cubic-bezier(0, 0, 0.31, 0.82);
+}
+
+.texli{
+  font-size: 33.75px;
+  letter-spacing: 10px;
+}
+
+.tex{
+  overflow: hidden;
+  top: 1350px;
+  left: -7px;
+  white-space: nowrap;
+  position: absolute;
+  transform: rotate(-90deg);
+  z-index: 20;
+  animation: lightning .5s infinite;
+}
+
+@keyframes lightning {
+    from, 50%, to { opacity: 1 }
+    25%, 75% { opacity: 0 }
+}
+
+.texliright{
+  font-size: 33.75px;
+  letter-spacing: 10px;
+}
+
+.texright{
+  overflow: hidden;
+  top: 1350px;
+  left: 1210px;
+  white-space: nowrap;
+  position: absolute;
+  transform: rotate(-90deg);
+  z-index: 20;
+  animation: lightning .5s infinite;
+}
+
+@keyframes lightning {
+    from, 50%, to { opacity: 1 }
+    25%, 75% { opacity: 0 }
+}
+
+.first{
+  font-size: 33.75px;
+  letter-spacing: 10px;
+  overflow: hidden;
+  top: 776px;
+  left: -7px;
+  white-space: nowrap;
+  position: absolute;
+  transform: rotate(-90deg);
+  z-index: 20;
+}
+
+.second{
+  font-size: 33.75px;
+  letter-spacing: 10px;
+  overflow: hidden;
+  top: 776px;
+  left: 1210px;
+  white-space: nowrap;
+  position: absolute;
+  transform: rotate(-90deg);
+  z-index: 20;
+}
+
+.third{
+  font-size: 33.75px;
+  letter-spacing: 10px;
+  overflow: hidden;
+  top: 1980px;
+  left: 21px;
+  white-space: nowrap;
+  position: absolute;
+  transform: rotate(-90deg);
+  z-index: 20;
+}
+
+.fourth{
+  font-size: 33.75px;
+  letter-spacing: 10px;
+  overflow: hidden;
+  top: 2050px;
+  left: 1260px;
+  white-space: nowrap;
+  position: absolute;
+  transform: rotate(-90deg);
+  z-index: 20;
+}
+
+
+.circle{
+    background: white;
+    filter: blur(20px);
+    border-radius: 50%;
+    height: 10em;
+    width: 10em;
+    position: absolute;
+    display: block;
+    top: 2600px;
+    left: 310px;
+    animation: bozhe 5s ease infinite alternate;
+  }
+
+  .circle:hover{
+    animation-play-state: paused;
+  }
+
+
+  @keyframes bozhe {
+    0%{left: 310px; top: 2600px;}
+    100%{left: 760px; top: 2900px;}
+  }
+
+  .circle1{
+      background: white;
+      filter: blur(20px);
+      border-radius: 50%;
+      height: 5em;
+      width: 5em;
+      position: absolute;
+      display: block;
+      top: 2727px;
+      left: 396px;
+      animation: gospodi 5s ease infinite alternate;
+    }
+
+    .circle1:hover{
+      animation-play-state: paused;
+    }
+
+    @keyframes gospodi {
+      0% {left: 396px; top: 2727px;}
+      50% {left: 760px; top: 2900px;}
+      100% {left: 1130px; top: 2945px; }
+    }
+
+    .circle2{
+        background: white;
+        filter: blur(20px);
+        border-radius: 50%;
+        height: 5em;
+        width: 5em;
+        position: absolute;
+        display: block;
+        top: 2818px;
+        left: 1066px;
+        animation: help 5s ease infinite alternate;
+      }
+
+      .circle2:hover{
+        animation-play-state: paused;
+      }
+
+      @keyframes help {
+        0% {left: 1066px; top: 2818px;}
+        25% {left: 1137px; top: 2746px;}
+        50% {left: 1102; top: 2674px;}
+        100% {left: 835px; top: 2674px; }
+      }
+
+      .circle3{
+          background: white;
+          filter: blur(20px);
+          border-radius: 50%;
+          height: 4em;
+          width: 4em;
+          position: absolute;
+          display: block;
+          top: 2960px;
+          left: 1370px;
+          animation: ya 5s ease infinite alternate;
+        }
+
+        .circle3:hover{
+          animation-play-state: paused;
+        }
+
+        @keyframes ya {
+          0% {left: 1370px; top: 2960px;}
+          100% {left: 1370px; top: 2410px;}
+        }
+
+        .circle4{
+            background: white;
+            filter: blur(20px);
+            border-radius: 50%;
+            height: 4em;
+            width: 4em;
+            position: absolute;
+            display: block;
+            top: 2770px;
+            left: 175px;
+            animation: ustala 5s ease infinite alternate;
+          }
+
+          .circle4:hover{
+            animation-play-state: paused;
+          }
+
+          @keyframes ustala {
+            0% {left: 175px; top: 2770px;}
+            100% {left: 175px; top: 2330px;}
+          }
+
+
+
+.pend{
+  font-size: 48px;
+}
+
+.textend{
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  top: 3000px;
+  z-index: 20;
+  animation: text 20s linear infinite;
+}
+.textend:hover{
+  animation-play-state: paused;
+}
+@keyframes text {
+  from {text-indent: 100%}
+  to {text-indent: -100%}
+}
+
+.luna{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background: url('../images/lepa.svg');
+}
+
+.lepeshka{
+  width: 247px;
+  height: 247px;
+  display: block;
+  position: absolute;
+  top: 850px;
+  left: 385px;
+  animation: bum 10s ease infinite alternate;
+}
+
+@keyframes bum {
+  0% {left: 385px; top: 850px;}
+  50% {left: 800px; top: 880px;}
+  65% {left: 1055px; top: 760px;}
+  75% {left: 880px; top: 670px;}
+  85% {left: 320px; top: 670px;}
+  100% {left: 300px; top: 840px;}
+}
+
+.spasi{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background: url('../images/Group2551440.svg');
+}
+
+.choeto{
+  width: 352.88px;
+  height: 415.49px;
+  display: block;
+  position: absolute;
+  top: 955px;
+  left: 787px;
+  animation: eto 5s ease infinite alternate;
+}
+
+.choeto:hover{
+animation-play-state: running;
+}
+
+@keyframes eto {
+0% {left: 787px; top: 955px;}
+100% {left: 887px; top: 1055px;}
+}
+
+.isohrani{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background: url('../images/Group2391440.svg');
+}
+
+.yanapredele{
+  width: 484.61px;
+  height: 455.33px;
+  display: block;
+  position: absolute;
+  top: 1760px;
+  left: 313px;
+  animation: yaa 5s ease infinite alternate;
+}
+
+.yanapredele:hover{
+  animation-play-state: running;
+}
+
+@keyframes yaa {
+0% {left: 313px; top: 1760px;}
+100% {left: 313px; top: 2060px;}
+}
+
+.iisusehruste{
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  background: url('../images/Group 2381440.svg')
+}
+
+.chutchut{
+  width: 174.16px;
+  height: 276.76px;
+  display: block;
+  position: absolute;
+  top: 1810px;
+  left: 995px;
+  animation: chut 5s ease infinite alternate;
+}
+
+.chutchut:hover{
+  animation-play-state: running;
+}
+
+@keyframes chut {
+  0% {left: 995px; top: 1810px;}
+  100% {left: 595px; top: 1400px;}
+}
