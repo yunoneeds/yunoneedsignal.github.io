@@ -27,7 +27,7 @@
 }
 
 
-@media screen (max-device-width: 1920px) and (min-device-width: 1080px) {
+@media screen фтв (max-device-width: 1920px) and (min-device-width: 1080px) {
   .p1{
     font-size: 48px;
   }
@@ -46,7 +46,7 @@
 
     .p-num{
       font-size: 64px;
-      background: red;
+     
     }
 
     .text-num{
